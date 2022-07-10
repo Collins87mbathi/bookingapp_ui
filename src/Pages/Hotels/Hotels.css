@@ -18,6 +18,7 @@
     border-radius: 10px;
     position: sticky;
     top: 10px;
+    height: max-content;
 }
 .lsTitle {
     font-size: 20px;
@@ -28,3 +29,60 @@
 .hotelResult {
     flex: 3;
 }
+.lsItem {
+    display: flex;
+    flex-direction: column;
+   gap: 5px;
+   margin-bottom: 20px;
+}
+.lsItem>label {
+   font-size: 12px; 
+   font-weight: bold;
+}
+
+.lsItem>input {
+  height: 30px;  
+  border: none;
+  padding: 5px;
+}
+
+.lsItem>span {
+    height: 30px;  
+    border: none;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+  }
+
+  .lsOptions{
+    padding: 10px;
+  }
+  
+  .lsOptionItem{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 12px;
+  }
+  
+  .lsOptionInput{
+    width: 50px;
+  }
+  
+  .hotelSearch>button{
+    padding: 10px;
+    background-color: rgb(242, 45, 45);
+    color: white;
+    border: none;
+    width: 100%;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .hotelResult {
+    flex: 3;
+  }
+
